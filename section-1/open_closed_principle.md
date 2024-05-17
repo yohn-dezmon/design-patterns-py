@@ -2,6 +2,8 @@
 
 when you add new functionality to a class, add it by via extension NOT via modification.
 
+basically: define base classes that you then use to define more specific classes. That way you keep your modifications within the extended classes.
+
 Extension:
 - literally extending existing classes in java with `extend` keyword
 - or using an interface/trait and writing implementations in classes...
@@ -23,4 +25,14 @@ Design Patterns --> Enterprise Patterns.
 
 Enterprise Patterns:
 - specification.  
+- we'll implement it there
+
+2 classes.
+1. specification
+2. filter 
+
+
+# Combinator
+
+- a structure which combines other structures  
 
